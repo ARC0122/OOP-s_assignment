@@ -1,4 +1,4 @@
-export class Room {
+class Room {
   #roomID;
   roomNo;
   roomType;
@@ -23,3 +23,5 @@ export class Room {
     return `Room Status has been upadated`;
   }
 }
+
+module.exports = Room;

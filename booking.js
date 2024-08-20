@@ -1,4 +1,4 @@
-export class Booking {
+class Booking {
   #bookingID;
   #roomID;
   #customerID;
@@ -26,3 +26,5 @@ export class Booking {
     console.log("Booking confirmed");
   }
 }
+
+module.exports = Booking;

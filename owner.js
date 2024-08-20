@@ -1,6 +1,6 @@
 const User = require("./user");
 
-export class Owner extends User {
+class Owner extends User {
   #ownerID;
   constructor(
     ownerID,
@@ -22,3 +22,5 @@ export class Owner extends User {
     return `First Name: ${this._fName},\nLast Name: ${this._lName},\nEmail: ${this.email},\nMobile no.:${this.mobile}`;
   }
 }
+
+module.exports = Owner;

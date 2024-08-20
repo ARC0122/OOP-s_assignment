@@ -1,4 +1,4 @@
-export class Hotel {
+class Hotel {
   #hotelID;
   #OwnerID;
   constructor(hotelID, Hotel_Name, OwnerID, Location, City) {
@@ -13,3 +13,5 @@ export class Hotel {
     `;
   }
 }
+
+module.exports = Hotel;

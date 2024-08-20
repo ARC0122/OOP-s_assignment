@@ -1,4 +1,3 @@
-const Customer = require("./customer");
 const User = require("./user");
 
 const User1 = new User(
@@ -8,8 +7,7 @@ const User1 = new User(
   "john.doe@example.com",
   "1234567890",
   "1985-02-15",
-  "male",
-  1
+  "male"
 );
 
 console.log(User1.getDetails());
@@ -21,7 +19,6 @@ const User2 = new User(
   "jane.smith@example.com",
   "1234567891",
   "1990-06-21",
-  "female",
-  2
+  "female"
 );
 console.log(User2.getDetails());

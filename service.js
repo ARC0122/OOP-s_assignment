@@ -1,4 +1,4 @@
-export class Services {
+class Services {
   #ServiceID;
   constructor(ServiceID, Service_Name, Service_Description, Price) {
     (this.#ServiceID = ServiceID),
@@ -12,3 +12,4 @@ export class Services {
         Service Description: ${this.Service_Description}, Price: ${this.Price}`;
   }
 }
+module.exports = Services;

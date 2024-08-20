@@ -1,6 +1,6 @@
 const User = require("./user");
 
-export class Employee extends User {
+class Employee extends User {
   #employeeID;
   _role;
 
@@ -25,3 +25,5 @@ export class Employee extends User {
     Last Name: ${this.lName}`;
   }
 }
+
+module.exports = Employee;
