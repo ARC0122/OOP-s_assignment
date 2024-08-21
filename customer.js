@@ -9,11 +9,7 @@ class Customer extends User {
   }
 
   getDetails() {
-    return `User ID: ${this.#customerID},\nFirst Name: ${
-      this._fName
-    },\nLast Name: ${this._lName},\nEmail: ${this.email},\nMobile no.:${
-      this.mobile
-    }`;
+    return `First Name: ${this._fName},\nLast Name: ${this._lName}`;
   }
 
   makeBooking(roomID, checkInDate, checkOutDate) {

@@ -5,12 +5,20 @@ class Room {
   price;
   #roomStatus;
 
-  constructor(roomID, roomNo, roomType, price, roomStatus = "Available") {
+  constructor(
+    roomID,
+    roomNo,
+    roomType,
+    price,
+    roomStatus = "Available",
+    HotelID
+  ) {
     this.#roomID = roomID;
     this.roomNo = roomNo;
     this.roomType = roomType;
     this.price = price;
     this.#roomStatus = roomStatus;
+    this.HotelID = HotelID;
   }
 
   getRoomDetails() {

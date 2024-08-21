@@ -1,3 +1,4 @@
+const Customer = require("./customer");
 const User = require("./user");
 
 const User1 = new User(
@@ -12,13 +13,14 @@ const User1 = new User(
 
 console.log(User1.getDetails());
 console.log("-----------------------");
-const User2 = new User(
+const User2 = new Customer(
   2,
   "Jane",
   "Smith",
   "jane.smith@example.com",
   "1234567891",
   "1990-06-21",
-  "female"
+  "female",
+  1
 );
 console.log(User2.getDetails());
